@@ -20,7 +20,7 @@ services:
         sync: false
       - key: OAUTH_GOOGLE_CLIENT_SECRET
         sync: false
-    region: seoul
+    region: frankfurt
     buildCommand: pip install -r requirements.txt
     startCommand: chainlit run app.py -h --port $PORT
 version: "1"
