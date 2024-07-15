@@ -12,7 +12,15 @@ services:
         sync: false
       - key: LITERAL_API_KEY
         sync: false
-    region: frankfurt
+      - key: CHAINLIT_AUTH_SECRET
+        sync: false
+      - key: CHAINLIT_URL
+        sync: false
+      - key: OAUTH_GOOGLE_CLIENT_ID
+        sync: false
+      - key: OAUTH_GOOGLE_CLIENT_SECRET
+        sync: false
+    region: seoul
     buildCommand: pip install -r requirements.txt
     startCommand: chainlit run app.py -h --port $PORT
 version: "1"
