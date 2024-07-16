@@ -1,7 +1,7 @@
 # Exported from Render on 2024-05-20T20:56:35Z
 services:
   - type: web
-    name: HYU Chatbot DT
+    name: HYU Chatbot(DT)
     runtime: python
     repo: https://github.com/uyunho99/hyu_dt
     plan: starter
